@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f56363;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 80vh;
+}
+
+h2 {
+    padding: 20px;
+    font-weight: bold;
+}
+
+button {
+    background: #a20000;
+	color: white;
+    border: none;
+    border-radius: 5px;
+	border-color: #a20000;
+    box-shadow: 3px 3px 3px #786b6bfa;
+	height: 40px;
+	width: 80px;
+    cursor: pointer;
+}
+
+#simButton {
+    position: absolute;
+    top: 50%;
+    left: 46%;
+    transform: translate(-50%, -50%);
+}
+
+#moveButton {
+    position: absolute;
+    top: 50%;
+    left: 54%;
+    transform: translate(-50%, -50%);
+  }
